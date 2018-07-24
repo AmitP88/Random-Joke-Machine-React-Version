@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: whitesmoke;
+  font-family: 'Pacifico', Helvetica, sans-serif;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+#quote-box {
+  padding: 50px;
+  margin: 2% auto 10% auto;
+}
+
+.quote-box {
+  font-family: 'Jua', sans-serif;
+  font-size: 1.5em;
+}
+
+.buttons {
+  padding-top: 1px;
+  margin: 5%;
+}
+
+.button {
+  margin: 4px;
+  width: 200px;  
+  color: whitesmoke;
+  border-radius: 5px;
+  border-style: solid;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;  
+}
+
+.button:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateY(4px);  
+}
+
+.generate-button {
+  background-color: lightseagreen;
+  border-color: lightseagreen;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 9px #068481;
+}
+
+.generate-button:hover {
+  background-color: #2FAA96;
+  border-color: #2FAA96;
+}
+
+.generate-button:active {
+  box-shadow: 0 5px #045a59;
+}
+
+.twitter-share-button {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+  padding: 10px;
+  box-shadow: 0 9px #367ee9;
+}
+
+.twitter-share-button:hover {
+  background-color: rgb(26, 141, 212);
+  border-color: 	rgb(26, 141, 212);
+}
+
+.twitter-share-button:active {
+  box-shadow: 0 5px #295ead;
+}
+
+.api-source a {
+  color: rgb(0, 192, 192);
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+footer {
+  padding: 5%;
+  background-color:#222;
+  color: whitesmoke;
+}
+
+.fa-github {
+  color: whitesmoke;
+}
+
+.fa-github:hover {
+  color: rgb(85, 26, 139);
+}
+
+.github-profile-link {
+  text-decoration-line: none;
+  font-weight: bold;
+}
