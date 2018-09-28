@@ -1,11 +1,12 @@
 {
   "name": "my-app",
-  "homepage": "http://AmitP88.github.io/Random-Joke-Machine-React-Version",
+  "homepage": "https://AmitP88.github.io/Random-Joke-Machine-React-Version",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
+    "npm": "^6.4.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-redux": "^5.0.7",
