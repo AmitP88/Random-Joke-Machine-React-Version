@@ -18,7 +18,7 @@ class Wrapper extends React.Component {
   componentDidMount() {
       var joke = '';
       $("#new-quote").on("click", function() {
-          $.getJSON("https://08ad1pao69.execute-api.us-east-1.amazonaws.com/dev/random_joke", function(json) {
+          $.getJSON("https://official-joke-api.herokuapp.com/random_joke", function(json) {
               joke = json.setup + " " + json.punchline;
               $("#text").html("Joke : " + JSON.stringify(json.setup));
               $("#author").html("Punchline : " + JSON.stringify(json.punchline));
